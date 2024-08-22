@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins', sans-serif;
+  box-sizing: border-box;
+}
+.container{
+  width: 100%;
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)), url(assets/background1.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 10px 8%;
+}
+nav{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+nav ul{
+  list-style: none;
+  width: 100%;
+  text-align: right;
+  padding-right: 60px;
+}
+nav ul li{
+  display: inline-block;
+  margin: 10px 20px;
+  position: relative;
+}
+nav ul li a{
+  color:#fff;
+  text-decoration: none;
+}
+.logo{
+  font-size: 2em;
+  color: white;
+  width: 180px;
+  padding: 2px;
+}
+.register{
+  color:#fff;
+  padding:10px 20px;
+  font-size: 15px;
+  background:indianred;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.register:hover{
+  background: transparent;
+  border: 1px solid indianred;
+}
+.content{
+  max-width: 650px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+.content span{
+  letter-spacing: 5px;
+}
+.content h1{
+  font-size: 3.5em;
+}
+.content a{
+  text-decoration: none;
+  background: indianred;
+  color: white;
+  padding: 10px 20px;
+  letter-spacing: 5px;
+  transition: 0.4s;
+
+}
+.content a:hover{
+  background: transparent;
+  border: 1px solid indianred;
+}
